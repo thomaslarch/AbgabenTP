@@ -1,0 +1,94 @@
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta name="viewport" content="width = 1050, user-scalable = no" />
+<script type="text/javascript" src="../../extras/jquery.min.1.7.js"></script>
+<script type="text/javascript" src="../../extras/modernizr.2.5.3.min.js"></script>
+<link rel="stylesheet" href="basic.css">
+</head>
+<body>
+
+<div class="flipbook-viewport">
+	<div class="container">
+		<div class="flipbook">
+			<div style="background-image:url(pages/mainpage.png)"></div>
+			<div style="background-image:url(pages/gatsby.png)"></div>
+			<div id="gatsby"><h3>JAY GATSBY</h3><p>Jay Gatsby is a rich man who lives in a Gothic mansion in West Egg. He is famous for his parties at his estate every Saturday. No one knows where he comes from, what he does and why he is so rich. His real name is James Gatz and he lived on a farm in North Dakota. He worked for a millionaire who helped him to achieve his goals and he became rich. Gatsby fell in love with Daisy Buchanan when he met her while he was at the police school in Louisville. Gatsby has achieved his goals with criminal activity. His main goal was to win Daisy’s heart. Gatsby is very optimistic and he has the power that his dreams come true.</div>
+			<div style="background-image:url(pages/nick.jpg)"></div>
+			<div id="nick"><h3>NICK CARRAWAY</h3><p>Nick is a young man from Minnesota who goes to New York City to become a broker at the wall street. He studied at the Yale University and also fought in World War I. He moves to West Egg, which is part of Long Island. West Egg is the home of rich persons. His new neighbour is the mysterious Jay Gatsby. Nick is the cousin of Daisy Buchanan. He is in love with Jordan Baker. Nick is the narrator of the story, and says not only the story but also his feelings and thoughts. </div>
+			<div style="background-image:url(pages/daisy.jpg)"></div>
+			<div id="daisy"><h3>DAISY BUCHANAN</h3><p>Daisy is the cousin of Nick and Gatsby’s love. She is a beautiful woman and she was courted by a number of men. She fell in love with Gatsby and said that he will wait for him after the war. But then she met the young wealthy Tom Buchanan and she married him. She lives with Tom in East Egg, which is also a rich part of the city. She is not happy with their marriage because Tom is not loyal.
+            </div>
+			<div style="background-image:url(pages/tom.jpg)"></div>
+			<div id="tom"><h3>TOM BUCHANAN</h3><p>Tom Buchanan is the husband of Daisy. He knows Nick from Yale. His richness comes from a rich old family. Tom is an arrogant bully. He is very racist and sexist. He doesn’t matter of others problems and he has no social thinks. He has no bad feelings about his affair, but when he knows that Daisy and Gatsby have an affair, he gets angry and forces a confrontation.</div>
+			<div style="background-image:url(pages/Fitzgerald.jpg)"></div>
+			<div id="fitzgerald"><h3>THE AUTHOR</h3><p>Francis Scott Key Fitzgerald was born on September 24th, 1896 in Saint Paul, Minnesota to an upper middle class family. He wrote his first story at the age of 13 for the school newspaper. 1913 he began to study at the Princetown University. His first commercial novel is called “The Romantic Egoist”. In 1917 he left the University to join the army. He fought in the World War I. In 1920 he married Zelda. They had a daughter called Frances Scott. His masterpiece “The Great Gatsby was published in 1925. Many stories are reflections of his life with Zelda. In the 1930s he wrote commercial stories and scripts for Hollywood, because he needed money. His last story was published after his dead. He died on 21st December 1940 of a heart attack.</div>
+            <div style="background-image:url(pages/story.jpg)"></div>
+            <div id="thestory"><h3>THE STORY</h3><p>The protagonist, Jay Gatsby, is involved in illegal activities, like selling liquor during prohibition, when liquor sales are illegal in the United States. He throws famous parties. He meets and begins an affair with his beloved Daisy. Daisy's husband, Tom, is carrying on an affair with a woman from the poor quarter of New York. Her name is Myrtle Wilson and he is the wife of a mechanic. Driving home from New York, Daisy kills Myrtle while driving Gatsby's car. Myrtle's husband is very angry and tries to find the killer. Tom says to the husband that Gatsby killed her. Then he goes to Gatsby’s house where he kills Gatsby and then himself.</div>
+            <div style="background-image:url(pages/genre.PNG)"></div>
+            <div id="thegenre"><h3>THE GENRE</h3><p>The book The Great Gatsby is a Roman and a Historical fiction.<p>
+            <h3>THE OPINION</h3><p>    
+            I liked the Book very much because I also saw the film of it. I also like that the time after the World War I is shown. It is interesting because there are shown the problems of the poor but also of the rich. Its written very interesting, that its never boring.<p>
+            <h3>THE MAINTHEMES</h3><p>
+            -Visions of America<p>
+            -Society and Class<p>
+            -Memory and the Past<p>    
+            </div>
+            <div style="background-image:url(pages/social.jpg)"></div>
+            <div id="thesocial"><h3>THE SOCIAL CONTEXT</h3><p>Set in the 1920s, The Great Gatsby represents a society in riot following the First World War. Because of the huge loss of life in Europe there was a sense of having survived tragedy and a need to celebrate life and youth.   
+            </div>
+            <div style="background-image:url(pages/sources.jpg)"></div>
+            <div style="background-image:url(pages/source.PNG)"><h3></h3><p>
+            </div>
+			<div style="background-image:url(pages/backcover.PNG)"></div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+
+function loadApp() {
+
+
+
+	$('.flipbook').turn({
+			
+
+			width:922,
+		
+
+			height:600,
+
+			
+
+			elevation: 50,
+			
+			
+
+			gradients: true,
+			
+			
+
+			autoCenter: true
+
+	});
+}
+
+
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['../../lib/turn.js'],
+	nope: ['../../lib/turn.html4.min.js'],
+	complete: loadApp
+});
+
+</script>
+
+</body>
+</html>
